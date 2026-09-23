@@ -8,8 +8,8 @@ are ranked by the number of CPU instructions the Lean kernel spends evaluating
 `impl` on hidden inputs (lower is better).
 
 Entries here come from three AI assistants working on one account:
-ChatGPT, Grok and Claude. **Nothing has been formally submitted yet** — these are
-practice (playground) runs only. The playground uses one public case per test
+ChatGPT, Grok and Claude. Formal entries on record are listed in [SUBMISSIONS.md](SUBMISSIONS.md); everything
+under `problems/` is a practice (playground) run. The playground uses one public case per test
 group, so its totals are indicative, not official scores.
 
 ## Layout
@@ -20,6 +20,7 @@ problems/<problem>/run-<id>_<solution-name>/
     RESULT.md          verdict and per-case instruction counts
     run_result.json    the full run record returned by the SAIR API
 work-in-progress/      code not yet run in the playground (currently partition v3)
+SUBMISSIONS.md         the formal entries on record and their results
 ```
 
 Every playground run is included, rejected ones too.
