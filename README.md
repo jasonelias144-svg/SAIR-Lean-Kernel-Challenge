@@ -29,7 +29,7 @@ Every playground run is included, rejected ones too.
 
 | Problem | Best total instructions | By |
 |---|---:|---|
-| fib | 30,259,944 | ChatGPT (run 157) |
+| fib | 12,721,449 | Claude (run 228) |
 | partition | 47,526,495 | Claude (run 220) |
 | mertens | 83,698,202 | Claude (run 226) |
 | primecount | 25,351,692 | Claude (run 224) |
@@ -45,6 +45,7 @@ Every playground run is included, rejected ones too.
 | fib | [157](problems/fib/run-0157_chatgpt_001/RESULT.md) | `chatgpt_001` | ChatGPT | accepted | 30,259,944 |
 | fib | [165](problems/fib/run-0165_chatgpt_001/RESULT.md) | `chatgpt_001` | ChatGPT | accepted | 30,263,943 |
 | fib | [166](problems/fib/run-0166_chatgpt_fib_two_square_001/RESULT.md) | `chatgpt_fib_two_square_001` | ChatGPT | accepted | 49,389,045 |
+| fib | [228](problems/fib/run-0228_claude_fib_cps_doubling_001/RESULT.md) | `claude_fib_cps_doubling_001` | Claude | accepted | 12,721,449 |
 | partition | [158](problems/partition/run-0158_chatgpt_partition_baseline_001/RESULT.md) | `chatgpt_partition_baseline_001` | ChatGPT | accepted | 41,498,007,670 |
 | partition | [167](problems/partition/run-0167_grok_partition_dp_list_001/RESULT.md) | `grok_partition_dp_list_001` | Grok | accepted | 9,194,300,506 |
 | partition | [168](problems/partition/run-0168_grok_partition_dp_norange_002/RESULT.md) | `grok_partition_dp_norange_002` | Grok | accepted | 11,658,183,302 |
