@@ -21,6 +21,7 @@ problems/<problem>/run-<id>_<solution-name>/
     run_result.json    the full run record returned by the SAIR API
 work-in-progress/      code not yet run in the playground (currently partition v3)
 SUBMISSIONS.md         the formal entries on record and their results
+tools/session-setup.sh session setup: Lean toolchain, challenge repo, optional Mathlib
 ```
 
 Every playground run is included, rejected ones too.
