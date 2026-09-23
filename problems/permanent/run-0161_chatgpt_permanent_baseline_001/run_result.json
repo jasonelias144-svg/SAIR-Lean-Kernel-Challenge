@@ -1,0 +1,443 @@
+{
+  "runId": "161",
+  "solutionId": "168",
+  "solutionRevision": 1,
+  "solutionName": "chatgpt_permanent_baseline_001",
+  "snapshotId": "188",
+  "problemId": "permanent",
+  "status": "done",
+  "statusUncertain": false,
+  "canCancel": false,
+  "historyCategory": "accepted",
+  "finalConclusion": "passed",
+  "verdict": "accepted",
+  "score": null,
+  "reasonCode": null,
+  "reasonMessage": null,
+  "logExcerpt": null,
+  "metrics": {
+    "mode": "perf_instructions",
+    "metric": "perf_instructions",
+    "unit": "instructions",
+    "official": false,
+    "scoreable": false,
+    "repetitionsPerInput": 3,
+    "completedSlots": 3,
+    "totalSlots": 3,
+    "instructionMedian": "131925851354",
+    "wallTimeMs": null,
+    "checker": "official-kernel-replay v4.33.1 (kernel-replay-v2)",
+    "timingExecutor": "lean-timer-executor",
+    "timingExecutorVersion": "1.2.1",
+    "timingExecutorCpu": "AMD Ryzen 9 9950X 16-Core Processor",
+    "timingExecutorMemoryBytes": 132519706624,
+    "timingExecutorMemoryLimitMiB": 8192,
+    "timingProtocol": "KTP/3",
+    "measurementContract": "kernel-replay-v2",
+    "headlineN": "71077100717",
+    "peakMemoryBytes": 5143064576,
+    "slots": [
+      {
+        "caseId": "R1:0",
+        "caseIndex": 0,
+        "groupId": "R1",
+        "groupLabel": "6 x 6",
+        "groupOrder": 1,
+        "input": "28064292647",
+        "instructions": "305823010",
+        "measurementTarget": "LeanKernelChallengeJudge.Generated_8e07646451329fb750aac2be.check",
+        "peakMemoryBytes": 78585856,
+        "repetitions": [
+          {
+            "index": 0,
+            "instructions": "305823010",
+            "peakMemoryBytes": 78512128,
+            "status": "success",
+            "wallTimeMs": 17.961047
+          },
+          {
+            "index": 1,
+            "instructions": "305620036",
+            "peakMemoryBytes": 78417920,
+            "status": "success",
+            "wallTimeMs": 17.10884
+          },
+          {
+            "index": 2,
+            "instructions": "306222289",
+            "peakMemoryBytes": 78585856,
+            "status": "success",
+            "wallTimeMs": 18.63138
+          }
+        ],
+        "scale": 6,
+        "slotIndex": 0,
+        "status": "success",
+        "timeoutSeconds": 30,
+        "wallTimeMs": 17.961047
+      },
+      {
+        "caseId": "R2:0",
+        "caseIndex": 0,
+        "groupId": "R2",
+        "groupLabel": "12 x 12",
+        "groupOrder": 2,
+        "input": "53794586207",
+        "instructions": "9361761450",
+        "measurementTarget": "LeanKernelChallengeJudge.Generated_c1449c7796994ba8c780cc9f.check",
+        "peakMemoryBytes": 428748800,
+        "repetitions": [
+          {
+            "index": 0,
+            "instructions": "9352965316",
+            "peakMemoryBytes": 428417024,
+            "status": "success",
+            "wallTimeMs": 949.880442
+          },
+          {
+            "index": 1,
+            "instructions": "9361761450",
+            "peakMemoryBytes": 428404736,
+            "status": "success",
+            "wallTimeMs": 946.812112
+          },
+          {
+            "index": 2,
+            "instructions": "9365921226",
+            "peakMemoryBytes": 428748800,
+            "status": "success",
+            "wallTimeMs": 946.506504
+          }
+        ],
+        "scale": 12,
+        "slotIndex": 1,
+        "status": "success",
+        "timeoutSeconds": 60,
+        "wallTimeMs": 946.812112
+      },
+      {
+        "caseId": "R3:0",
+        "caseIndex": 0,
+        "groupId": "R3",
+        "groupLabel": "16 x 16",
+        "groupOrder": 3,
+        "input": "71077100717",
+        "instructions": "131925851354",
+        "measurementTarget": "LeanKernelChallengeJudge.Generated_fe2b2c589dac35d9a5663bb7.check",
+        "peakMemoryBytes": 5143064576,
+        "repetitions": [
+          {
+            "index": 0,
+            "instructions": "131791075889",
+            "peakMemoryBytes": 5142835200,
+            "status": "success",
+            "wallTimeMs": 16744.762389
+          },
+          {
+            "index": 1,
+            "instructions": "131925851354",
+            "peakMemoryBytes": 5143064576,
+            "status": "success",
+            "wallTimeMs": 16956.83237
+          },
+          {
+            "index": 2,
+            "instructions": "132005239147",
+            "peakMemoryBytes": 5142687744,
+            "status": "success",
+            "wallTimeMs": 16919.660031
+          }
+        ],
+        "scale": 16,
+        "slotIndex": 2,
+        "status": "success",
+        "timeoutSeconds": 120,
+        "wallTimeMs": 16919.660031
+      }
+    ],
+    "completedGroups": 3,
+    "totalGroups": 3,
+    "groups": [
+      {
+        "cases": [
+          {
+            "caseId": "R1:0",
+            "caseIndex": 0,
+            "groupId": "R1",
+            "groupLabel": "6 x 6",
+            "groupOrder": 1,
+            "input": "28064292647",
+            "instructions": "305823010",
+            "measurementTarget": "LeanKernelChallengeJudge.Generated_8e07646451329fb750aac2be.check",
+            "peakMemoryBytes": 78585856,
+            "repetitions": [
+              {
+                "index": 0,
+                "instructions": "305823010",
+                "peakMemoryBytes": 78512128,
+                "status": "success",
+                "wallTimeMs": 17.961047
+              },
+              {
+                "index": 1,
+                "instructions": "305620036",
+                "peakMemoryBytes": 78417920,
+                "status": "success",
+                "wallTimeMs": 17.10884
+              },
+              {
+                "index": 2,
+                "instructions": "306222289",
+                "peakMemoryBytes": 78585856,
+                "status": "success",
+                "wallTimeMs": 18.63138
+              }
+            ],
+            "scale": 6,
+            "slotIndex": 0,
+            "status": "success",
+            "timeoutSeconds": 30,
+            "wallTimeMs": 17.961047
+          }
+        ],
+        "completedCases": 1,
+        "groupId": "R1",
+        "groupLabel": "6 x 6",
+        "groupOrder": 1,
+        "totalCases": 1
+      },
+      {
+        "cases": [
+          {
+            "caseId": "R2:0",
+            "caseIndex": 0,
+            "groupId": "R2",
+            "groupLabel": "12 x 12",
+            "groupOrder": 2,
+            "input": "53794586207",
+            "instructions": "9361761450",
+            "measurementTarget": "LeanKernelChallengeJudge.Generated_c1449c7796994ba8c780cc9f.check",
+            "peakMemoryBytes": 428748800,
+            "repetitions": [
+              {
+                "index": 0,
+                "instructions": "9352965316",
+                "peakMemoryBytes": 428417024,
+                "status": "success",
+                "wallTimeMs": 949.880442
+              },
+              {
+                "index": 1,
+                "instructions": "9361761450",
+                "peakMemoryBytes": 428404736,
+                "status": "success",
+                "wallTimeMs": 946.812112
+              },
+              {
+                "index": 2,
+                "instructions": "9365921226",
+                "peakMemoryBytes": 428748800,
+                "status": "success",
+                "wallTimeMs": 946.506504
+              }
+            ],
+            "scale": 12,
+            "slotIndex": 1,
+            "status": "success",
+            "timeoutSeconds": 60,
+            "wallTimeMs": 946.812112
+          }
+        ],
+        "completedCases": 1,
+        "groupId": "R2",
+        "groupLabel": "12 x 12",
+        "groupOrder": 2,
+        "totalCases": 1
+      },
+      {
+        "cases": [
+          {
+            "caseId": "R3:0",
+            "caseIndex": 0,
+            "groupId": "R3",
+            "groupLabel": "16 x 16",
+            "groupOrder": 3,
+            "input": "71077100717",
+            "instructions": "131925851354",
+            "measurementTarget": "LeanKernelChallengeJudge.Generated_fe2b2c589dac35d9a5663bb7.check",
+            "peakMemoryBytes": 5143064576,
+            "repetitions": [
+              {
+                "index": 0,
+                "instructions": "131791075889",
+                "peakMemoryBytes": 5142835200,
+                "status": "success",
+                "wallTimeMs": 16744.762389
+              },
+              {
+                "index": 1,
+                "instructions": "131925851354",
+                "peakMemoryBytes": 5143064576,
+                "status": "success",
+                "wallTimeMs": 16956.83237
+              },
+              {
+                "index": 2,
+                "instructions": "132005239147",
+                "peakMemoryBytes": 5142687744,
+                "status": "success",
+                "wallTimeMs": 16919.660031
+              }
+            ],
+            "scale": 16,
+            "slotIndex": 2,
+            "status": "success",
+            "timeoutSeconds": 120,
+            "wallTimeMs": 16919.660031
+          }
+        ],
+        "completedCases": 1,
+        "groupId": "R3",
+        "groupLabel": "16 x 16",
+        "groupOrder": 3,
+        "totalCases": 1
+      }
+    ],
+    "correctnessReplay": {
+      "measurementBoundary": "full-closure-replay-v1",
+      "peakMemoryBytes": 68296704,
+      "repetitions": [
+        {
+          "index": 0,
+          "instructions": "292059705",
+          "peakMemoryBytes": 68296704,
+          "status": "success",
+          "wallTimeMs": 22.971114
+        }
+      ],
+      "repetitionsRequested": 1,
+      "status": "success"
+    }
+  },
+  "attempt": 1,
+  "maxAttempts": 2,
+  "pipelineVersion": "lean-kernel-2026-09-04.1",
+  "progressObservedAt": "2026-09-19T22:28:34.427Z",
+  "todos": [
+    {
+      "key": "local_worker_queue",
+      "label": "Waiting for evaluator capacity",
+      "status": "done",
+      "startedAt": "2026-09-19T22:26:58.984Z",
+      "completedAt": "2026-09-19T22:26:58.986Z",
+      "durationMs": 2
+    },
+    {
+      "key": "comparator",
+      "label": "Comparator",
+      "status": "done",
+      "startedAt": "2026-09-19T22:26:58.986Z",
+      "completedAt": "2026-09-19T22:27:02.321Z",
+      "durationMs": 2974
+    },
+    {
+      "key": "axiom_audit",
+      "label": "Axiom audit",
+      "status": "done",
+      "startedAt": "2026-09-19T22:27:02.321Z",
+      "completedAt": "2026-09-19T22:27:02.441Z",
+      "durationMs": 117
+    },
+    {
+      "key": "performance_prepare",
+      "label": "Preparing performance cases",
+      "status": "done",
+      "startedAt": "2026-09-19T22:27:02.441Z",
+      "completedAt": "2026-09-19T22:27:37.469Z",
+      "durationMs": 35028
+    },
+    {
+      "key": "performance_queue",
+      "label": "Waiting for performance measurement",
+      "status": "done",
+      "startedAt": "2026-09-19T22:27:37.469Z",
+      "completedAt": "2026-09-19T22:27:37.471Z",
+      "durationMs": 2
+    },
+    {
+      "key": "performance_measurement",
+      "label": "Performance measurement",
+      "status": "done",
+      "startedAt": "2026-09-19T22:27:37.471Z",
+      "completedAt": "2026-09-19T22:28:34.427Z",
+      "durationMs": 56956
+    }
+  ],
+  "stages": {
+    "comparator": "done",
+    "r2_audit": "done",
+    "r3_audit": "done",
+    "timing": "done"
+  },
+  "ruleVersion": "ddd9cae8db44a2ace1adea86e908263087aae499",
+  "templateVersion": "ddd9cae8db44a2ace1adea86e908263087aae499",
+  "toolchainVersion": "sha256:8ac7b755441474543ce871d425826a9bdcdafc1610495d79d266cca6ce95a75f",
+  "practicePolicy": {
+    "casesPerGroup": 1,
+    "deterministic": true,
+    "official": false,
+    "preparationTimeoutSeconds": 4500,
+    "schema": "grouped-practice-v1",
+    "seedInjected": false,
+    "sourceSchema": "grouped-evaluation-v1",
+    "stageBudgets": {
+      "audit_timeout_seconds": 60,
+      "case_audit_timeout_seconds": 300,
+      "case_build_export_timeout_seconds": 600,
+      "comparator_timeout_seconds": 600,
+      "correctness_replay_timeout_seconds": 300,
+      "perf_phase_budget_seconds": 0,
+      "timing_timeout_seconds": 1800
+    },
+    "standardTiming": {
+      "executorService": "lean-timer-executor",
+      "measurementContract": "kernel-replay-v2",
+      "memoryLimitMiB": 8192,
+      "minimumVersion": "1.1.0",
+      "protocol": "KTP/3"
+    }
+  },
+  "practicePlan": [
+    {
+      "caseIndex": 0,
+      "groupId": "R1",
+      "groupLabel": "6 x 6",
+      "groupOrder": 1,
+      "input": "28064292647",
+      "scale": 6,
+      "timeoutSeconds": 30
+    },
+    {
+      "caseIndex": 0,
+      "groupId": "R2",
+      "groupLabel": "12 x 12",
+      "groupOrder": 2,
+      "input": "53794586207",
+      "scale": 12,
+      "timeoutSeconds": 60
+    },
+    {
+      "caseIndex": 0,
+      "groupId": "R3",
+      "groupLabel": "16 x 16",
+      "groupOrder": 3,
+      "input": "71077100717",
+      "scale": 16,
+      "timeoutSeconds": 120
+    }
+  ],
+  "createdAt": "2026-09-19T22:26:58Z",
+  "queuedAt": "2026-09-19T22:26:58.984Z",
+  "startedAt": "2026-09-19T22:26:58.986Z",
+  "completedAt": "2026-09-19T22:28:34.427Z"
+}
