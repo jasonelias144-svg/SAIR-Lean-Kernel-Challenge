@@ -1,0 +1,154 @@
+{
+  "runId": "214",
+  "solutionId": "232",
+  "solutionRevision": 1,
+  "solutionName": "grok-solution-2",
+  "snapshotId": "246",
+  "problemId": "ca-rule110",
+  "status": "done",
+  "statusUncertain": false,
+  "canCancel": false,
+  "historyCategory": "rejected",
+  "finalConclusion": "failed",
+  "verdict": "rejected",
+  "score": null,
+  "reasonCode": "REJECTED",
+  "reasonMessage": "comparator: uncaught exception: Child exited with 1",
+  "logExcerpt": "\u274c ca-rule110/445-1: rejected \u2014 comparator: uncaught exception: Child exited with 1",
+  "metrics": {
+    "mode": "perf_instructions",
+    "metric": "perf_instructions",
+    "unit": "instructions",
+    "official": false,
+    "scoreable": false,
+    "repetitionsPerInput": null,
+    "completedSlots": null,
+    "totalSlots": null,
+    "instructionMedian": null,
+    "wallTimeMs": null,
+    "checker": null,
+    "timingProtocol": "KTP/3",
+    "headlineN": null
+  },
+  "attempt": 1,
+  "maxAttempts": 2,
+  "pipelineVersion": "lean-kernel-2026-09-04.1",
+  "progressObservedAt": "2026-09-22T15:22:55.866Z",
+  "todos": [
+    {
+      "key": "local_worker_queue",
+      "label": "Waiting for evaluator capacity",
+      "status": "done",
+      "startedAt": "2026-09-22T15:22:52.992Z",
+      "completedAt": "2026-09-22T15:22:52.993Z",
+      "durationMs": 1
+    },
+    {
+      "key": "comparator",
+      "label": "Comparator",
+      "status": "failed",
+      "startedAt": "2026-09-22T15:22:52.993Z",
+      "completedAt": "2026-09-22T15:22:55.769Z",
+      "durationMs": 2420
+    },
+    {
+      "key": "axiom_audit",
+      "label": "Axiom audit",
+      "status": "skipped",
+      "startedAt": null,
+      "completedAt": null,
+      "durationMs": null
+    },
+    {
+      "key": "performance_prepare",
+      "label": "Preparing performance cases",
+      "status": "skipped",
+      "startedAt": null,
+      "completedAt": null,
+      "durationMs": null
+    },
+    {
+      "key": "performance_queue",
+      "label": "Waiting for performance measurement",
+      "status": "skipped",
+      "startedAt": null,
+      "completedAt": null,
+      "durationMs": null
+    },
+    {
+      "key": "performance_measurement",
+      "label": "Performance measurement",
+      "status": "skipped",
+      "startedAt": null,
+      "completedAt": null,
+      "durationMs": null
+    }
+  ],
+  "stages": {
+    "comparator": "failed",
+    "r2_audit": "pending",
+    "r3_audit": "pending",
+    "timing": "pending"
+  },
+  "ruleVersion": "ddd9cae8db44a2ace1adea86e908263087aae499",
+  "templateVersion": "ddd9cae8db44a2ace1adea86e908263087aae499",
+  "toolchainVersion": "sha256:8ac7b755441474543ce871d425826a9bdcdafc1610495d79d266cca6ce95a75f",
+  "practicePolicy": {
+    "casesPerGroup": 1,
+    "deterministic": true,
+    "official": false,
+    "preparationTimeoutSeconds": 4500,
+    "schema": "grouped-practice-v1",
+    "seedInjected": false,
+    "sourceSchema": "grouped-evaluation-v1",
+    "stageBudgets": {
+      "audit_timeout_seconds": 60,
+      "case_audit_timeout_seconds": 300,
+      "case_build_export_timeout_seconds": 600,
+      "comparator_timeout_seconds": 600,
+      "correctness_replay_timeout_seconds": 300,
+      "perf_phase_budget_seconds": 0,
+      "timing_timeout_seconds": 1800
+    },
+    "standardTiming": {
+      "executorService": "lean-timer-executor",
+      "measurementContract": "kernel-replay-v2",
+      "memoryLimitMiB": 4096,
+      "minimumVersion": "1.1.0",
+      "protocol": "KTP/3"
+    }
+  },
+  "practicePlan": [
+    {
+      "caseIndex": 0,
+      "groupId": "C1",
+      "groupLabel": "2 steps",
+      "groupOrder": 1,
+      "input": "12551916119",
+      "scale": 2,
+      "timeoutSeconds": 30
+    },
+    {
+      "caseIndex": 0,
+      "groupId": "C2",
+      "groupLabel": "4 steps",
+      "groupOrder": 2,
+      "input": "18550129185",
+      "scale": 4,
+      "timeoutSeconds": 60
+    },
+    {
+      "caseIndex": 0,
+      "groupId": "C3",
+      "groupLabel": "8 steps",
+      "groupOrder": 3,
+      "input": "34820276714",
+      "scale": 8,
+      "timeoutSeconds": 120
+    }
+  ],
+  "createdAt": "2026-09-22T15:22:52Z",
+  "queuedAt": "2026-09-22T15:22:52.992Z",
+  "startedAt": "2026-09-22T15:22:52.993Z",
+  "completedAt": "2026-09-22T15:22:55.866Z"
+}
