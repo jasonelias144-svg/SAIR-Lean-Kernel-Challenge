@@ -19,7 +19,7 @@ problems/<problem>/run-<id>_<solution-name>/
     Submission.lean    the exact source that was run
     RESULT.md          verdict and per-case instruction counts
     run_result.json    the full run record returned by the SAIR API
-work-in-progress/      code not yet run in the playground
+work-in-progress/      code not yet run in the playground (currently partition v3)
 ```
 
 Every playground run is included, rejected ones too.
@@ -30,7 +30,7 @@ Every playground run is included, rejected ones too.
 |---|---:|---|
 | fib | 30,259,944 | ChatGPT (run 157) |
 | partition | 47,526,495 | Claude (run 220) |
-| mertens | 2,164,283,088 | Grok (run 169) |
+| mertens | 83,698,202 | Claude (run 226) |
 | primecount | 25,351,692 | Claude (run 224) |
 | permanent | 659,951,953 | Claude (run 222) |
 | ca-rule110 | 112,511,454 | Claude (run 219) |
@@ -51,6 +51,7 @@ Every playground run is included, rejected ones too.
 | partition | [220](problems/partition/run-0220_claude_partition_packed_gf_natops_002/RESULT.md) | `claude_partition_packed_gf_natops_002` | Claude | accepted | 47,526,495 |
 | mertens | [159](problems/mertens/run-0159_chatgpt_mertens_baseline_001/RESULT.md) | `chatgpt_mertens_baseline_001` | ChatGPT | accepted | 2,482,959,057 |
 | mertens | [169](problems/mertens/run-0169_grok_mertens_minfac_rec_001/RESULT.md) | `grok_mertens_minfac_rec_001` | Grok | accepted | 2,164,283,088 |
+| mertens | [226](problems/mertens/run-0226_claude_mertens_bitsets_001/RESULT.md) | `claude_mertens_bitsets_001` | Claude | accepted | 83,698,202 |
 | primecount | [160](problems/primecount/run-0160_chatgpt_primecount_baseline_001/RESULT.md) | `chatgpt_primecount_baseline_001` | ChatGPT | accepted | 2,130,756,878 |
 | primecount | [170](problems/primecount/run-0170_grok_primecount_minfac_succ_001/RESULT.md) | `grok_primecount_minfac_succ_001` | Grok | accepted | 2,125,836,371 |
 | primecount | [223](problems/primecount/run-0223_claude_primecount_bitsieve_001/RESULT.md) | `claude_primecount_bitsieve_001` | Claude | accepted | 42,128,035 |
