@@ -1,4 +1,4 @@
-# primecount v3 (not yet run in the playground)
+# primecount v3 (playground: accepted, see SUBMISSIONS.md)
 
 New algorithm, complete proof, passes the local judge.
 

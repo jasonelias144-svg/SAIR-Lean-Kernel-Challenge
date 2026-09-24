@@ -1,4 +1,4 @@
-# mertens v3 (not yet run in the playground)
+# mertens v3 (playground: accepted, see SUBMISSIONS.md)
 
 New algorithm, complete proof (~900 lines), passes the local judge.
 

@@ -1,4 +1,4 @@
-# partition v3 (not yet run in the playground)
+# partition v3 (playground: accepted, see SUBMISSIONS.md)
 
 Same algorithm and proof as run 220, with the two inner loops (`hgeo`, `rowF`)
 written as `Nat.rec` instead of structural recursion. Complete proof; builds
