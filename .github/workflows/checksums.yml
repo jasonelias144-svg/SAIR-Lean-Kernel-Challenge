@@ -1,0 +1,12 @@
+name: checksums
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  final-submissions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Final files match what was submitted
+        run: cd final-submissions && sha256sum -c SHA256SUMS

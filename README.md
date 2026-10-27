@@ -41,7 +41,9 @@ submitted so that every problem has an entry, not to compete on that problem.
 ## About this record
 
 The work came from three AI assistants on one account: ChatGPT, Grok and
-Claude. Everything under `problems/` is a playground (practice) run, rejected
+Claude. Working on this repository: [AGENTS.md](AGENTS.md),
+[STATUS.md](STATUS.md) and the
+[policy handbook](https://github.com/jasonelias144-svg/policy-handbook). Everything under `problems/` is a playground (practice) run, rejected
 runs included. The playground uses one public case per test group, so its
 totals are indicative, not official scores.
 
