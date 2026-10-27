@@ -1,4 +1,4 @@
-# mertens v3 (not yet run in the playground)
+# mertens v3: design notes
 
 New algorithm, complete proof (~900 lines), passes the local judge.
 
@@ -31,4 +31,4 @@ Local kernel instruction counts (`tools/icount-kernel.sh`; `Int` results carry a
 
 Estimated official six-case total: ~167 M → ~15 M (leader: 1.68 M).
 
-Queued for the next mertens playground slot.
+**Result:** accepted in playground run 244 (6,389,272 instructions over 3 public cases). Formal entry 530; official daily evaluation of 2026-10-27: accepted, all cases ok, total 13,418,313.

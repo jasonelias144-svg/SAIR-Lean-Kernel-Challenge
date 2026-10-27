@@ -1,4 +1,4 @@
-# primecount v3 (not yet run in the playground)
+# primecount v3: design notes
 
 New algorithm, complete proof, passes the local judge.
 
@@ -29,4 +29,4 @@ Proof outline: a field invariant `fld w n P S` (bit `i` set iff `w ∣ i`,
 turned into primality with `Nat.minFac`; and `pk X f L ≡ Σ f (mod X − 1)` for
 the final count.
 
-Queued for the next primecount playground slot.
+**Result:** accepted in playground run 243 (3,761,393 instructions over 3 public cases). Formal entry 529; official daily evaluation of 2026-10-27: accepted, all cases ok, total 7,988,837.
