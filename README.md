@@ -1,30 +1,64 @@
-# SAIR Lean Kernel Challenge — playground record
+# SAIR Lean Kernel Challenge — Stage 1 (team LKC01-T00210)
 
-Solutions and playground results for Stage 1 of the
+Solutions, playground runs and formal entries for Stage 1 of the
 [SAIR Lean Kernel Challenge](https://competition.sair.foundation/competitions/lean-kernel-challenge/overview)
 (co-organized by the Lean FRO and the SAIR Foundation). Each problem asks for a
 Lean 4 `impl` plus a complete proof `impl_correct : ∀ n, impl n = spec n`; entries
 are ranked by the number of CPU instructions the Lean kernel spends evaluating
 `impl` on hidden inputs (lower is better).
 
-Entries here come from three AI assistants working on one account:
-ChatGPT, Grok and Claude. Formal entries on record are listed in [SUBMISSIONS.md](SUBMISSIONS.md); everything
-under `problems/` is a practice (playground) run. The playground uses one public case per test
-group, so its totals are indicative, not official scores.
+## Status: complete
+
+All eight Stage 1 problems have a formal entry, each with a complete,
+machine-checked correctness proof. Seven passed the official daily evaluation of
+2026-10-27 (accepted, every hidden case `ok`). polydisc was submitted later that
+day, so its first evaluation is on 2026-10-28. No further entries are planned;
+the submission deadline is November 20, 2026, and the final evaluation runs
+after it.
+
+The exact submitted files are in [`final-submissions/`](final-submissions/).
+Their SHA-256 checksums ([`SHA256SUMS`](final-submissions/SHA256SUMS)) match the
+hashes the SAIR server recorded for each upload.
+
+| Problem | Entry | Solution (source run) | Author | Official total |
+|---|---:|---|---|---:|
+| fib | 489 | [CPS fast doubling](problems/fib/run-0228_claude_fib_cps_doubling_001/) | Claude | 29,938,624 |
+| partition | 480 | [packed generating function, v3](problems/partition/run-0242_claude_partition_v3_001/) | Claude | 42,257,715 |
+| mertens | 530 | [packed sieve with two-`mod` count, v3](problems/mertens/run-0244_claude_mertens_v3_001/) | Claude | 13,418,313 |
+| primecount | 529 | [spread-field sieve, v3](problems/primecount/run-0243_claude_primecount_v3_001/) | Claude | 7,988,837 |
+| permanent | 483 | [packed subset DP](problems/permanent/run-0222_claude_permanent_packed_subset_dp_001/) | Claude | 3,319,546,039 |
+| ca-rule110 | 482 | [bit-word step with `Nat.rec`](problems/ca-rule110/run-0219_claude_rule110_bitword_natrec_002/) | Claude | 225,030,102 |
+| sha256 | 484 | [fused rounds](problems/sha256/run-0221_claude_sha256_fused_rounds_001/) | Claude | 29,039,341,230 |
+| polydisc | 1910 | [organizers' spec baseline](problems/polydisc/run-0164_chatgpt_polydisc_baseline_001/) | ChatGPT | first evaluated 2026-10-28 |
+
+Official totals come from the daily evaluation of 2026-10-27. Each is the sum,
+over six hidden cases (fifteen for permanent), of the median of three kernel
+replays. [SUBMISSIONS.md](SUBMISSIONS.md) has submission times, the earlier
+entries these replaced, the full history and the submit command. The polydisc
+entry is the organizers' starter (`impl := discSpec`, proved by `rfl`). It was
+submitted so that every problem has an entry, not to compete on that problem.
+
+## About this record
+
+The work came from three AI assistants on one account: ChatGPT, Grok and
+Claude. Everything under `problems/` is a playground (practice) run, rejected
+runs included. The playground uses one public case per test group, so its
+totals are indicative, not official scores.
 
 ## Layout
 
 ```
+final-submissions/<problem>/Submission.lean   the exact file submitted for each problem
+final-submissions/SHA256SUMS                  checksums (cd final-submissions && sha256sum -c SHA256SUMS)
 problems/<problem>/run-<id>_<solution-name>/
     Submission.lean    the exact source that was run
     RESULT.md          verdict and per-case instruction counts
     run_result.json    the full run record returned by the SAIR API
-work-in-progress/      code not yet run in the playground (currently partition v3)
-SUBMISSIONS.md         the formal entries on record and their results
+    NOTES.md           design notes (v3 of partition, primecount, mertens)
+SUBMISSIONS.md         formal entries, official results, history, submit command
 tools/session-setup.sh session setup: Lean toolchain, challenge repo, optional Mathlib
+tools/icount-kernel.sh local kernel instruction counter (valgrind/callgrind)
 ```
-
-Every playground run is included, rejected ones too.
 
 ## Best accepted run per problem (playground)
 
