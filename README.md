@@ -10,11 +10,11 @@ are ranked by the number of CPU instructions the Lean kernel spends evaluating
 ## Status: complete
 
 All eight Stage 1 problems have a formal entry, each with a complete,
-machine-checked correctness proof. Seven passed the official daily evaluation of
-2026-10-27 (accepted, every hidden case `ok`). polydisc was submitted later that
-day, so its first evaluation is on 2026-10-28. No further entries are planned;
-the submission deadline is November 20, 2026, and the final evaluation runs
-after it.
+machine-checked correctness proof, and **all eight passed the official daily
+evaluation** (accepted, every hidden case `ok`). Seven passed on 2026-10-27;
+polydisc, submitted later that day, passed its first evaluation on 2026-10-28,
+when all eight passed again. No further entries are planned. The submission
+deadline is November 20, 2026, and the final evaluation runs after it.
 
 The exact submitted files are in [`final-submissions/`](final-submissions/).
 Their SHA-256 checksums ([`SHA256SUMS`](final-submissions/SHA256SUMS)) match the
@@ -29,9 +29,10 @@ hashes the SAIR server recorded for each upload.
 | permanent | 483 | [packed subset DP](problems/permanent/run-0222_claude_permanent_packed_subset_dp_001/) | Claude | 3,319,546,039 |
 | ca-rule110 | 482 | [bit-word step with `Nat.rec`](problems/ca-rule110/run-0219_claude_rule110_bitword_natrec_002/) | Claude | 225,030,102 |
 | sha256 | 484 | [fused rounds](problems/sha256/run-0221_claude_sha256_fused_rounds_001/) | Claude | 29,039,341,230 |
-| polydisc | 1910 | [organizers' spec baseline](problems/polydisc/run-0164_chatgpt_polydisc_baseline_001/) | ChatGPT | first evaluated 2026-10-28 |
+| polydisc | 1910 | [organizers' spec baseline](problems/polydisc/run-0164_chatgpt_polydisc_baseline_001/) | ChatGPT | 10,317,863,116 |
 
-Official totals come from the daily evaluation of 2026-10-27. Each is the sum,
+Official totals come from the daily evaluation of 2026-10-27 (polydisc: 2026-10-28,
+its first). Each is the sum,
 over six hidden cases (fifteen for permanent), of the median of three kernel
 replays. [SUBMISSIONS.md](SUBMISSIONS.md) has submission times, the earlier
 entries these replaced, the full history and the submit command. The polydisc

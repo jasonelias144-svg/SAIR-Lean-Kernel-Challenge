@@ -74,7 +74,11 @@ with every case `ok`, the correctness replay `ok`, and the entry eligible for ra
 | permanent | 483 | 15/15 | 3,319,546,039 |
 | ca-rule110 | 482 | 6/6 | 225,030,102 |
 | sha256 | 484 | 6/6 | 29,039,341,230 |
-| polydisc | 1910 | — | submitted after that day's cutoff; first evaluated 2026-10-28 |
+| polydisc | 1910 | 6/6 | 10,317,863,116 (2026-10-28, its first evaluation) |
+
+On 2026-10-28 all eight entries were accepted again, with every case `ok`. The
+seven earlier totals moved by at most 0.12%, which is ordinary measurement
+variation.
 
 The final evaluation runs separately after the deadline.
 
@@ -87,3 +91,4 @@ The final evaluation runs separately after the deadline.
 | 2026-09-24 | — | partition, primecount, mertens | v3 playground runs 242–244, all accepted (no new formal entries) |
 | 2026-09-24 | 529, 530 | primecount, mertens | v3 submitted formally, replacing 479 and 481 |
 | 2026-10-27 | 1910 | polydisc | Spec baseline (run 164) submitted, so all eight problems have an entry |
+| 2026-10-28 | 1910 | polydisc | First daily evaluation: accepted, 6/6 cases `ok`. All eight entries pass |
