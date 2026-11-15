@@ -132,9 +132,32 @@ These held across problems (measured with valgrind and confirmed by the playgrou
 
 [CC0 1.0](LICENSE): our work here is dedicated to the public domain. Anyone may
 use, change and build on it, for any purpose, without asking and without
-attribution. One part isn't ours to give: material from the challenge itself
-(its problem statements, `Spec` modules, starter code and worked examples, which
-the organizers publish under Apache-2.0) keeps the challenge's licence wherever
-it appears here. That includes the polydisc entry, which is the organizers'
-starter unchanged except for comments, and the baseline runs and solutions
-adapted from the challenge's examples.
+attribution.
+
+One part isn't ours to give. These files come from, or are adapted from, the
+challenge's own examples and starter files in
+[SAIRcompetition/lean-kernel-challenge](https://github.com/SAIRcompetition/lean-kernel-challenge)
+(at commit 940f0a2), which the organizers publish under the Apache License 2.0
+([LICENSE-APACHE-2.0](LICENSE-APACHE-2.0)). They keep that licence:
+
+- the challenge's examples, unchanged except for comments:
+  [`final-submissions/polydisc/Submission.lean`](final-submissions/polydisc/Submission.lean)
+  (the polydisc entry) and the baseline runs
+  `problems/ca-rule110/run-0162_chatgpt_rule110_baseline_001/`,
+  `problems/mertens/run-0159_chatgpt_mertens_baseline_001/`,
+  `problems/partition/run-0158_chatgpt_partition_baseline_001/`,
+  `problems/permanent/run-0161_chatgpt_permanent_baseline_001/`,
+  `problems/polydisc/run-0164_chatgpt_polydisc_baseline_001/`,
+  `problems/primecount/run-0160_chatgpt_primecount_baseline_001/` and
+  `problems/sha256/run-0163_chatgpt_sha256_baseline_001/`
+  (their `Submission.lean`);
+- adapted from the challenge's fib example, with our changes:
+  `problems/fib/run-0157_chatgpt_001/Submission.lean` and
+  `problems/fib/run-0165_chatgpt_001/Submission.lean`;
+- written on the challenge's primecount starter template, with our code in it:
+  `problems/primecount/run-0170_grok_primecount_minfac_succ_001/Submission.lean`.
+
+Every other solution imports the challenge's `Spec` module, which is not in this
+repository. The files above are found by comparing every `Submission.lean`
+here with the challenge's examples and starters; the frozen files in
+`final-submissions/` are listed here rather than edited.
