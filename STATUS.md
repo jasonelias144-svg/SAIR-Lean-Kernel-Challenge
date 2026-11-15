@@ -46,7 +46,7 @@
   2026-10-27) is closed. final-submissions/ is unchanged. The founder, the
   same day: "SAIR work is intentionally separate from the other repos. It is
   the only one that includes work and publications from outside." So it is the
-  one repository where outside licences sit beside CC0.
+  one repository built on outside work.
 - 2026-10-28 Claude (scheduled check): polydisc passed its first daily
   evaluation (6/6 cases, 10,317,863,116). All eight entries pass.
 - 2026-10-27 Claude: adopted the policy handbook; CI checks the final files'
