@@ -40,9 +40,13 @@
   license that says there is no restrictions and all that. No attribution
   required." The challenge's own material keeps its Apache-2.0 licence:
   LICENSE-APACHE-2.0 is a copy of it, and README.md ("Licence") lists the
-  eleven files it covers, found by comparing every Submission.lean here with
-  the challenge's examples and starters. The open question on the licence
-  (asked 2026-10-27) is closed. final-submissions/ is unchanged.
+  twelve files it covers, found by comparing every Submission.lean here with
+  the challenge's examples and starters, and by reading what each file's
+  header says it is adapted from. The open question on the licence (asked
+  2026-10-27) is closed. final-submissions/ is unchanged. The founder, the
+  same day: "SAIR work is intentionally separate from the other repos. It is
+  the only one that includes work and publications from outside." So it is the
+  one repository where outside licences sit beside CC0.
 - 2026-10-28 Claude (scheduled check): polydisc passed its first daily
   evaluation (6/6 cases, 10,317,863,116). All eight entries pass.
 - 2026-10-27 Claude: adopted the policy handbook; CI checks the final files'

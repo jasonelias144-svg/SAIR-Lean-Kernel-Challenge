@@ -153,11 +153,14 @@ challenge's own examples and starter files in
   (their `Submission.lean`);
 - adapted from the challenge's fib example, with our changes:
   `problems/fib/run-0157_chatgpt_001/Submission.lean` and
-  `problems/fib/run-0165_chatgpt_001/Submission.lean`;
+  `problems/fib/run-0165_chatgpt_001/Submission.lean`, and, at one remove
+  (its proof skeleton follows them, as its header says),
+  `problems/fib/run-0166_chatgpt_fib_two_square_001/Submission.lean`;
 - written on the challenge's primecount starter template, with our code in it:
   `problems/primecount/run-0170_grok_primecount_minfac_succ_001/Submission.lean`.
 
 Every other solution imports the challenge's `Spec` module, which is not in this
 repository. The files above are found by comparing every `Submission.lean`
-here with the challenge's examples and starters; the frozen files in
+here with the challenge's examples and starters, and by reading each file's
+header for what it says it is adapted from; the frozen files in
 `final-submissions/` are listed here rather than edited.
