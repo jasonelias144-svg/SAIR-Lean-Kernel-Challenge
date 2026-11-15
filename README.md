@@ -127,3 +127,14 @@ These held across problems (measured with valgrind and confirmed by the playgrou
 - **`noncomputable` definitions are rejected**: the judge wraps `impl` in an
   ordinary `def` (this is why run 214 failed; that solution was also filed under
   the wrong problem).
+
+## Licence
+
+[CC0 1.0](LICENSE): our work here is dedicated to the public domain. Anyone may
+use, change and build on it, for any purpose, without asking and without
+attribution. One part isn't ours to give: material from the challenge itself
+(its problem statements, `Spec` modules, starter code and worked examples, which
+the organizers publish under Apache-2.0) keeps the challenge's licence wherever
+it appears here. That includes the polydisc entry, which is the organizers'
+starter unchanged except for comments, and the baseline runs and solutions
+adapted from the challenge's examples.

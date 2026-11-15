@@ -24,8 +24,7 @@
 
 ## Open questions
 
-- For the founder: the licence for this repository. The challenge's own
-  starter code is Apache-2.0. (asked 2026-10-27)
+- Nothing.
 
 ## Noticed
 
@@ -33,6 +32,16 @@
 
 ## Log
 
+- 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain dedication,
+  by the founder's decision of 2026-11-15: "Consider all free and public and
+  use the license we have been using and correct that license when I naively
+  chose the wrong one or none. Always consider it all public if in a public
+  repo." And: "Please ensure the right license is chosen that is essentially a
+  license that says there is no restrictions and all that. No attribution
+  required." The challenge's own material (starter code and worked examples,
+  Apache-2.0) keeps its licence; README.md ("Licence") says which. The open
+  question on the licence (asked 2026-10-27) is closed. final-submissions/ is
+  unchanged.
 - 2026-10-28 Claude (scheduled check): polydisc passed its first daily
   evaluation (6/6 cases, 10,317,863,116). All eight entries pass.
 - 2026-10-27 Claude: adopted the policy handbook; CI checks the final files'
