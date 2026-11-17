@@ -2,7 +2,7 @@
 
 **What this is:** our Stage 1 entries in the SAIR Lean Kernel Challenge; details in README.md
 **State:** complete since 2026-10-27; entries frozen until the 2026-11-20 deadline
-**Updated:** 2026-10-28 by Claude
+**Updated:** 2026-11-17 by Claude
 
 ## Live
 
@@ -32,6 +32,9 @@
 
 ## Log
 
+- 2026-11-17 Claude: an AI agent is "they", never "it" (the handbook's
+  decision 0006, at the founder's word). CLAUDE.md says "they" of Claude, and
+  AGENTS.md has the rule under "Always".
 - 2026-11-15 Claude: licence: CC0 1.0 (`LICENSE`), a public-domain dedication,
   by the founder's decision of 2026-11-15: "Consider all free and public and
   use the license we have been using and correct that license when I naively
